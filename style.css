@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
 :root {
     --clr-primary-400: hsl(158, 36%, 37%);
     --clr-primary-500: hsl(158, 36%, 20%);
@@ -73,8 +75,7 @@ body {
     color: var(--clr-neutral-400);
     background: var(--clr-secondary-200);
     display: grid;
-    place-content: center;
-    margin: 1rem;
+    place-items: center;
 }
 
 .flex-group {
