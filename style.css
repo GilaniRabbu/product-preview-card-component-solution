@@ -122,7 +122,8 @@ body {
 }
 
 .product {
-    --content-padding: 1.375rem;
+    --content-inline: 1.5rem;
+    --content-block: 1.25rem;
     --content-spacing: 1rem;
 
     display: grid;
@@ -134,7 +135,8 @@ body {
 
 @media (min-width: 600px) {
     .product {
-        --content-padding: 2rem;
+        --content-inline: 2rem;
+        --content-block: 1.875rem;
         grid-template-columns: 1fr 1fr;
     }
 }
@@ -142,7 +144,8 @@ body {
 .product-info {
     display: grid;
     gap: var(--content-spacing);
-    padding: var(--content-padding);
+    padding-inline: var(--content-inline);
+    padding-block: var(--content-block);
 }
 
 .product-category {
